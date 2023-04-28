@@ -1,0 +1,1 @@
+this folder is to contain the code for the data base project.note that the software used to construct this microsft sql server management studio
