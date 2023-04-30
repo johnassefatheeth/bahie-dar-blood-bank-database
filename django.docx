@@ -1,0 +1,100 @@
+What is django
+
+Django is a Python-based free and open-source web framework, which follows the model-view-template architectural pattern. It is maintained by the Django Software Foundation, an independent organization established as a 501 non-profit. Django's primary goal is to ease the creation of complex, database-driven websites.
+
+Django is an open source web framework written in the Python programming language. It is designed to allow developers to create websites quickly and easily, while adhering to “the Zen of Python” philosophy—namely, providing a simple way of writing code that is easy to read and maintain. 
+
+The framework was created in 2003 by Adrian Holovaty and Simon Willison, as a semester project at the University of California at Berkeley's summer chapter meeting. It quickly grew into an online phenomenon, progressing from version 1.0 on July 10th, 2005 until its latest version 2.2 on April 1st, 2019. 
+
+At the heart of Django are a variety of powerful web technologies such as the object-relational mapper (ORM), which makes it easier to interact with databases using models; templates for creating dynamic HTML pages; and forms for creating user-friendly forms for data input. There are also tools available for authentication & authorization; URL routing; internationalization & localization; caching; RSS & Atom feed generators; static files management; site configuration handling & control panel integration. 
+
+With Django, developers can create secure applications faster than ever before because the framework offers features such as cross-site scripting protection, support for session management and content promotion rules among others. As a result there is little overhead associated with complicated security measures that would need to be hand coded each time if not take advantage of this infrastructure instead. 
+
+For those new to developing with Django there are numerous tutorials on offer through official documentation repositories plus highly interactive conversations on forums devoted exclusively to talking about this software stack all over the Internet. Regardless of experience level or how much you already know about programming in Python there will certainly be helpful advice available from one source or another when working within this development environment. 
+
+Whether you have been coding for years or just getting started it's worth considering DJango as your choice for creating projects online due its scalability, support for multiple databases and implementations, powerful IDE toolsets like PyCharm and Visual Studio Code plus compatibility with other popular frameworks like React and AngularJS making integration a breeze! With such an impressive array of features it's no wonder why this tool has achieved worldwide popularity in recent years - making Django one of the most sought after web frameworks today!
+
+
+What are the requirements to install django
+
+1. Python: Django is a Python-based web framework and thus requires the latest version of Python to be installed on your system.
+
+2. Pip: Pip is a package manager for Python and it is used to install Django in your system. It should also be noted that pip should be up-to-date for the installation process to work correctly.
+
+3. Virtual Environment: To create an isolated environment for installing and running different versions of Django without any conflicts, you can use virtual environments like pipenv or venv for different projects accordingly. 
+
+4. Database Driver: Depending on your choice of database (MySQL, PostgreSQL, or SQLite), appropriate database drivers must be installed on your system before you start using Django with a database.
+
+What are the steps to install django
+
+1. Install Python 
+2. Use pip to install Django - Open a terminal window and type "pip install Django"
+3. Create a new project by typing "django-admin startproject <projectname>" 
+4. Run the development server: cd into the outer directory of your project, then enter "python manage.py runserver" at the command line 
+5. Verify your installation: open a browser window and enter http://localhost:8000/ 
+6. Go ahead and start building amazing applications!
+
+Some basic syntax of django and their functions
+
+Model: The foundation of any Django application is its models, which help define the structure and behavior of the data in an application. Models contain fields (data points) and functions that allow us to manipulate and retrieve data from a database.
+
+Views: Views are simple Python functions or methods that take a web request and return a web response. Generally, views put logic into our web pages like presenting different types of content based on user roles and other factors.
+
+Templates: Templates are collections of static files used to generate dynamic HTML output for websites. In Django, templates are typically constructed with HTML, CSS, and JavaScript but can contain Expressions and Template Tags to render programmatic information where necessary.
+
+URL Mappings: URL mappings in Django point browser requests to view functions or class-based views which decide what data should be presented or modified in response. This mapping helps us ensure that users land on valid webpages within our applications. 
+
+Forms: Forms are tools used to capture input from site visitors, allowing us to either gather new information or modify existing information stored on the server side. These forms can be created with very little code using the Django Form library when configured as needed with model information. 
+
+Admin Interface: The Django Admin interface gives developers powerful tools for managing their applications quickly and easily via a user-friendly web interface. Once integrated into an application, users can log in with username/password credentials, browse data records, delete unnecessary items and make various changes through the online interface without ever touching code (unless desired).                  
+
+Serialization: Serialization is the process of converting native data types into formats suitable for storage or transfer over networks (such as JSON strings). This allows us to send complex multi-dimensional objects across disparate systems for use in other programs or shared business environments.       
+
+Middlewares: Backend middleware components act as "glue" between different layers in our applications such as between database queries and request handlers near the front end of a website. It's important middleware packages ensure proper flow of data throughout an application so users have consistent operations no matter where they exist within your system architecture.        
+
+Migration: Database migrations keep track of changes made to your models by generating SQL scripts which update existing databases when needed so you don't need manual intervention everytime new information needs captured or updated in existing tables/collections within a database instance you're utilizing. 
+
+Test Framework:Test frameworks allow us to write unit tests which verify the code we wrote works properly before incorporating it into larger software product suites we may need to maintain going forward - This task keeps development times minimal while ensuring quality assurance teams can begin debugging ASAP given unforeseen issues occur down the road after implementation has taken place within production environments!
+Benefits of using dajngo
+1. Enables Rapid Development: Django enables developers to quickly build apps without reinventing the wheel every time. 
+
+2. Highly Scalable: Django apps are easy to scale up or down as per the application's requirements, allowing for easier deployment of projects on large servers.
+
+3. Easy to Learn and Use: Django has an intuitive interface that makes learning and using it a breeze for developers, even beginners. 
+
+4. Comprehensive Documentation: Django comes with detailed documentation, making it easier to learn how to use even the most advanced features of the framework. 
+
+5. Secure Framework: Out of the box, Django offers users a secure environment with many inbuilt security features such as protection against clicks injection, cross-site request forgery (CSRF), etc. 
+
+6. Robust Object-Relational Mapping (ORM): Django provides an ORM layer which simplifies complex database operations by mapping between objects and tables and allows developers to switch between databases easily by simply changing their configurations. 
+
+7. Flexible Data Modeling: In comparison with other frameworks, Django's data model is much more flexible due to its dynamic fields and form builders which allowed the seamless integration of user-defined attributes and forms into any application while maintaining control of data integrity during transactions across all platforms no matter what data setup is used behind the scenes providing scalability and support for different types of databases (like NoSQL).  
+
+8. Excellent Third-Party Support/Integrations: Almost every tool or plugin you need is just a few lines away thanks to some generous third parties who contribute in providing value added solutions just like other popular open source technologies like nodejs and angularjs do so you don't need worry about re inventing the wheel when fine tuning your application as most problems can already solved by someone else within minutes across different development platforms like mobile, desktop or web in both traditional architecture style or micro services trends leading towards DevOps paradigms!  
+        
+9. High Performance Apps: Thanks for its robust ORM layer and template engine design,apps built using django looks amazing from end user perspective resulting unparalleled user experience even if your on low resource configurations making it ideal choice for companies looking into high performance applications at minimal cost investment resulting higher return ratio!  
+
+10 .Packaged Apps & Libraries Support :Allowing you to almost anything you could ever think off without wasting extra time and energy on dependecy management thanks for its consistent package structure + ubiquitous python libraries let you construct even complex applications within minutes that would take years develop in other language itself! Special mention django db migrations which drastically reduce time required maintain release management system if your experimenting new ideas oftenly while ensuring production app not breaking down during code modifications !   
+
+ 11 .SEO Friendly: Having well defined schema markup reduces latency thereby minimizing load times/ wait times significantly making searches faster retrieving relevant data sets instantaneously hence optimizing seo better way than ever before thus increasing customer visibility search engine rankings too!    
+
+ 12 .Open Source Community Support :The ability handle queries issue related topics bug fixes etc consistently within short span thanks active community members coming together brainstorm best possible solutions avoiding redundant repetitive discussions remains unmatched plus app developer society collectively trying enhance long term usability django overall should definitely be appreciated undeniable fact remains one productive eco system can bring out wonders world open source domain contributing plethora ideas initiatives true beauty collaboration sort could !              
+
+13 Modular Component Infrastructure :Incorporated basic components make developing custom modules simpler job follow specific standards save costs procurement process easy switchouts give immediate feedbacks necessary changes quicker execution plans successively covering gamut objective competencies expected certain business functions providing support multi lingual operators technology savvy fanatics isn't fairytale straight journey worthwhile experienced devs !           
+
+ 14 Accurate Deployment workflows :Django enable accuracy auto generating scripts through object relational mapper defaults huge speed ups deployment cycles guaranteed enhancing life cycle management processes defining tasks actions industry standard resources equip cumbersome tasks throughput cycles reduced nearly zero effort !!!!    
+
+15 Streamlined Reusability Optimization :Take advantage config files determine default settings enabling recognize functionality reducing boilerplate code throughout primary benefit code reuse optimizing load times improve debugging fixing errors efficiently satisfies revamp requirement instantly follows less is more mantra helps teams manage corrections iteratively dynamically paving path automation future much awaited prospect rest globe lives happily ever after !
+Disadvantages of django
+
+1. Django can be a difficult framework to learn and understand, as it has numerous components and requires time and effort to master them.
+
+2. There are limited resources available compared to other web development frameworks such as Ruby on Rails or PHP. 
+
+3. Limited data transfer due to large databases, making reading and writing from the database slower than other frameworks. 
+
+4. Debugging in Django can be difficult due to its various built-in libraries, which can slow down development process significantly.  
+
+5. The ORM used in Django does not integrate well with many NoSQL databases, making it impossible for developers to utilize them with this framework quickly. 
+
+6. Due to the way that Django is structured, there may often be conflicts between packages or modules when trying to develop complex systems with multiple parts tightly integrated together
