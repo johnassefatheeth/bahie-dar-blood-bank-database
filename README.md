@@ -1,2 +1,1 @@
-# assignments
-here is a place where i post the assignments and clss projects that i have done in my software engineering departemnet
+#this is the a database made with TSQL that is intended for bahir dar blood bank
